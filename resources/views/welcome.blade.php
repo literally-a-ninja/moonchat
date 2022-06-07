@@ -6,19 +6,15 @@
 
     <title>Moonchat</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 
-    <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
-    </style>
+    <script src="{{ mix('/js/app.js') }}"></script>
 </head>
 <body>
 <header></header>
-<main role="main">
-    Hello, World!b
+<main>
+    <example-component></example-component>
 </main>
+
 </body>
 </html>
